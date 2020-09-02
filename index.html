@@ -1,0 +1,957 @@
+﻿<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--  
+    Document Title
+    =============================================
+    -->
+    <title>Anikethana academy</title>
+    <!--  
+    Favicons
+    =============================================
+    -->
+    <link rel="android-chrome-icon" sizes="192x192" href="favicon_io/android-chrome-192x192.png">
+    <link rel="android-chrome-icon" sizes="60x60" href="favicon_io/android-chrome-512x512.png">
+    <!--<link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-icon-180x180.png">-->
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon_io/favicon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="favicon_io/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+    <!--  
+    Stylesheets
+    =============================================
+    
+    -->
+    <!-- Default stylesheets-->
+    <link href="assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template specific stylesheets-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="assets/lib/animate.css/animate.css" rel="stylesheet">
+    <link href="assets/lib/components-font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="assets/lib/et-line-font/et-line-font.css" rel="stylesheet">
+    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/lib/owl.carousel/dist/assets/owl.theme.default.min.css" rel="stylesheet">
+    <link href="assets/lib/magnific-popup/dist/magnific-popup.css" rel="stylesheet">
+    <link href="assets/lib/simple-text-rotator/simpletextrotator.css" rel="stylesheet">
+
+
+    <!-- Main stylesheet and color file-->
+    <link href="assets/css/style.css" rel="stylesheet">
+     <link id="color-scheme" href="assets/css/colors/default.css" rel="stylesheet">
+    <style>
+      .try{
+        color:white;
+      }
+    </style>
+    
+  </head>
+  <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    
+    <main>
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+      <style type="text/css">
+      #overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #000;
+      filter:alpha(opacity=70);
+      -moz-opacity:0.7;
+      -khtml-opacity: 0.7;
+      opacity: 0.7;
+      z-index: 100;
+      display: none;
+      }
+      .cnt223 a{
+      text-decoration: none;
+      }
+      .popup{
+      width: 100%;
+      margin: 0 auto;
+      display: none;
+      position: fixed;
+      z-index: 101;
+      }
+      .cnt223{
+      min-width: 600px;
+      width: 600px;
+      min-height: 150px;
+      margin: 100px auto;
+      background: #f3f3f3;
+      position: relative;
+      z-index: 103;
+      padding: 15px 35px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px #000;
+      }
+      .cnt223 p{
+      clear: both;
+          color: #555555;
+          /* text-align: justify; */
+          font-size: 20px;
+          font-family: sans-serif;
+      }
+      .cnt223 p a{
+      color: #d91900;
+      font-weight: bold;
+      }
+      .cnt223 .x{
+      float: right;
+      height: 35px;
+      left: 22px;
+      position: relative;
+      top: -25px;
+      width: 34px;
+      }
+      .cnt223 .x:hover{
+      cursor: pointer;
+      }
+      </style>
+      <script type='text/javascript'>
+      $(function(){
+      var overlay = $('<div id="overlay"></div>');
+      overlay.show();
+      overlay.appendTo(document.body);
+      $('.popup').show();
+      $('.close').click(function(){
+      $('.popup').hide();
+      overlay.appendTo(document.body).remove();
+      return false;
+      });
+      
+      
+       
+      
+      $('.x').click(function(){
+      $('.popup').hide();
+      overlay.appendTo(document.body).remove();
+      return false;
+      });
+      });
+      </script>
+      <div class='popup'>
+        <div class='cnt223'>
+        <h1>Important Notice</h1>
+        <img src="photos/popup.jpeg">
+        <br/>
+        <br/>
+        <a href='' class='close'>Close</a>
+        </p>
+        </div>
+        </div>
+     
+     
+      <nav class="navbar navbar-custom navbar-transparent navbar-fixed-top one-page" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+            <div class="page-loader">
+              
+              <div class="loader">Loading...</div>
+              
+            </div>
+            <!--<div class="newLogo">
+              <img src="Logo.png">
+            </div>-->
+          
+           
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#custom-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="index_op_fullscreen_gradient_overlay.html">ANIKETHANA</a>
+          </div>
+          <div class="collapse navbar-collapse" id="custom-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#totop">Home</a></li>
+              <li><a class="section-scroll" href="#aboutus">About</a></li>
+              <li><a class="section-scroll" href="#works">Events</a></li>
+              <li><a class="section-scroll" href="#alt-features">Course</a></li>
+              <li><a class="section-scroll" href="#team">Team</a></li>
+              <li><a class="section-scroll" href="#testimonial">testimonial</a></li>
+              <li><a class="section-scroll" href="#news">News</a></li>
+              <li><a class="section-scroll" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <section class="home-section home-full-height bg-dark bg-gradient" id="home" >
+        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=jh-Uxmef4ak&t=9s', containment:'.home-section', startAt:8, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        <div class="video-controls-box">
+          <div class="container">
+            <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
+          </div>
+        </div>
+        <div class="anikethana-caption">
+          <div class="caption-content">
+           <!--- <div class="font-alt mb-10 anikethana-title-size-1">Welcome</div>
+            <div class=" mb-10 anikethana-title-size-4"><p class="orangeColor"><b>ANIKETHANA <span class="try">ACADEMY</b></span><span></b></p></div>--><a class="section-scroll btn btn-border-w btn-round btn-place" href="#aboutus"><span class="anikethana-title-size-5">Learn More</span></a>
+            </div>
+        </div>
+      </section>
+      
+        <section class="module bg-gradient" id="aboutus">
+          
+          <div class="about">
+                <h2 class="module-title font-alt">About Us</h2>
+              
+                <div class="module-subtitle font-serif">Anikethana Academy is conducting many after school activities like Guitar, Keyboard, Classic Music, Western Dance,Calligraphy,Chess,Handwriting, SIP Abacus & Brain Gym .</div>
+             
+              </div>
+
+            
+              <p class="features-title p1"><b>•  Our Abacus and Brain Gym Programme has derived various exercises by which each once Brain gets equally activated by enhancing the overall Brain capability of the children. Our programmes are so well designed that the training is impacted in a progressive way without over straining the Children. SIP Programme has two constituents in it. </p></b>
+              <p class="features-title p1"><b>•  SIP Anikethana Academy Started in February 2006 and we are very proud and happy to say that we stand 1st all over Karnataka among 90+Centers. Anikethana has been selected as SIP TITAN since 11 years among 750 centers across theCountry. Anikethana has graduated many children in SABG and many batches of children in our unique AMAL Programme (Designed especially for 5 to 7 years kids).
+            </b>
+              </p>
+              <p class="features-title p2"><b>•  Anikethana Academy is also focused on the other Activities like Western Dance, Guitar, Keyboard, Classic Music, Zumba,Chess,Calligraphy,Handwriting where in all together in these activities many children are learning and Participating in many competitions and winning many prizes in different categories to
+                Anikethana.
+                </b></p>
+              
+            
+             
+                         <!-- <div class="row multi-columns-row">
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-lightbulb"></span></div>
+                  <h3 class="features-title font-alt">One Roof Many activities</h3>
+                  <p>This SIP Anikethana in the center of Sociable, Intellectual, and Progressive Academy and has been a nerve center for Abacus and Brain Gym Programme.Our Abacus and Brain Gym Programme has derived various exercises by which each once Brain gets equally activated by enhancing the overall Brain capability of the children.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-bike"></span></div>
+                  <h3 class="features-title font-alt">Optimised for speed</h3>
+                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-tools"></span></div>
+                  <h3 class="features-title font-alt">Designs &amp; interfaces</h3>
+                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-gears"></span></div>
+                  <h3 class="features-title font-alt">Highly customizable</h3>
+                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-tools-2"></span></div>
+                  <h3 class="features-title font-alt">Coding &amp; development</h3>
+                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-genius"></span></div>
+                  <h3 class="features-title font-alt">Features &amp; plugins</h3>
+                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-mobile"></span></div>
+                  <h3 class="features-title font-alt">Responsive design</h3>
+                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 col-xs-12">
+                <div class="features-item">
+                  <div class="features-icon"><span class="icon-lifesaver"></span></div>
+                  <h3 class="features-title font-alt">Dedicated support</h3>
+                  <p>Careful attention to detail and clean, well structured code ensures a smooth user experience for all your visitors.</p>
+                </div>
+              </div>
+            </div>
+          </div>-->
+        </section>
+        <section class="module bg-gradient" >
+          <img src="Logos/SIP Abacus logo-02.jpg" style="margin-left: auto; margin-right: auto; display: block;">
+        
+         <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="video-box">
+                  <div class="video-box-icon">
+                    <div> <a class="video-pop-up" href="https://www.youtube.com/watch?v=IKhwcV4Uq3Y" style="padding: 30px;"><h2 class="b">Video 1</h2></a></div>
+                     <div>  <a class="video-pop-up" href="https://www.youtube.com/watch?v=xUtfwmW-nb8" ><h2 class="b">Video 2</h2>
+                     </a></div>
+                     <div> <a class="video-pop-up" href="https://www.youtube.com/watch?v=JQ4yM44_b70" style="padding: 30px;"><h2 class="b">Video 3</h2></a></div>
+                    
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+        
+        </section>
+        <section class="module pb-0" id="works">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">GALLERY</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-12">
+                <ul class="filter font-alt" id="filters">
+                  <li><a class="current wow fadeInUp" href="#" data-filter="*">All</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".Event" data-wow-delay="0.2s">Events</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".dance" data-wow-delay="0.4s">Dance</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".music" data-wow-delay="0.6s">Music</a></li>
+                  <li><a class="wow fadeInUp" href="#" data-filter=".abacus" data-wow-delay="0.6s">Abacus</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <ul class="works-grid works-grid-gut works-grid-3 works-hover-w" id="works-grid">
+            <li class="work-item abacus webdesign"><a href="photos/a11.jpg">
+            
+                <div class="work-image"><img src="photos/a11.jpg" alt="Portfolio Item"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Abacus</h3>
+                 
+                </div></a></li>
+            <li class="work-item Event webdesign"><a href="photos/Event photos/001.JPG">
+                <div class="work-image"><img src="photos/Event photos/001.JPG" alt="Portfolio Item"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Event</h3>
+                  <div class="work-descr">12th Year Anniversary</div>
+                </div></a></li>
+          
+                </div></a></li>
+            <li class="work-item Event webdesign"><a href="photos/a2.jpg">
+                <div class="work-image"><img src="photos/a2.jpg" alt="Portfolio Item"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Teachers</h3>
+                
+                </div></a></li>
+            <li class="work-item dance webdesign"><a href="photos/a3.jpg">
+                <div class="work-image dance photography"><img src="photos/a3.jpg" alt="Portfolio Item"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Dance Class</h3>
+             
+                </div></a></li>
+            <li class="work-item music webdesign"><a href="photos/a4.jpg">
+                <div class="work-image"><img src="photos/a4.jpg" alt="Portfolio Item"/></div>
+                <div class="work-caption font-alt">
+                  <h3 class="work-title">Music Class</h3>
+                 
+                </div></a></li>
+             <li class="work-item dance webdesign"><a href="photos/a9.jpg">
+                  <div class="work-image dance photography"><img src="photos/a9.jpg" alt="Portfolio Item"/></div>
+                  <div class="work-caption font-alt">
+                    <h3 class="work-title">Dance Class</h3>
+                  
+                  </div></a></li>
+             <li class="work-item music webdesign"><a href="photos/a6.jpg">
+                    <div class="work-image"><img src="photos/a6.jpg" alt="Portfolio Item"/></div>
+                    <div class="work-caption font-alt">
+                      <h3 class="work-title">Guitar</h3>
+                      
+                    </div></a></li>
+             <li class="work-item abacus webdesign"><a href="photos/a7.jpg">
+                      <div class="work-image"><img src="photos/a7.jpg" alt="Portfolio Item"/></div>
+                      <div class="work-caption font-alt">
+                        <h3 class="work-title">Amal Abacus</h3>
+                
+                      </div></a></li>
+                      <li class="work-item"><a href="photos/a1.jpg">
+                        <div class="work-image"><img src="photos/a1.jpg" alt="Portfolio Item"/></div>
+                        <div class="work-caption font-alt">
+                        
+                         
+             
+                      <li class="work-item music webdesign"><a href="photos/a8.jpg">
+                        <div class="work-image"><img src="photos/a8.jpg" alt="Portfolio Item"/></div>
+                        <div class="work-caption font-alt">
+                          <h3 class="work-title">Keyboard</h3>
+                   
+                        </div></a></li>
+            <li class="work-item Event webdesign"><a href="photos/Event photos/DSC_7161.JPG">
+                          <div class="work-image"><img src="photos/Event photos/DSC_7161.JPG" alt="Portfolio Item"/></div>
+                          <div class="work-caption font-alt">
+                            <h3 class="work-title">Event</h3>
+                            <div class="work-descr">12th Year Anniversary</div>
+                          </div></a></li>
+            <li class="work-item abacus webdesign"><a href="photos/a10.jpg">
+                            <div class="work-image"><img src="photos/a10.jpg" alt="Portfolio Item"/></div>
+                            <div class="work-caption font-alt">
+                              <h3 class="work-title">Amal Abacus</h3>
+                          
+                            </div></a></li>
+          </ul>
+        </section>
+        <section class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-8 col-lg-6 col-lg-offset-2">
+                
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title" >50 Inspirational Quotes for When Your Mood Could Use a</h3>
+                  <p style=text-align:center>Quote to be inserted</p>
+                </div>
+              </div>
+            <!--  <div class="col-sm-6 col-md-4 col-lg-2">
+                <div class="callout-btn-box"><a class="btn btn-w btn-round" href="portfolio_boxed_gutter_col_3.html">Lets view portfolio</a></div>-->
+              </div>
+            </div>
+          </div>
+        </section>
+      -->
+        <section class="module" id="alt-features">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Course Offered</h2>
+                <div class="module-subtitle font-serif">Anikethana Academy conducts many Activities like SIP Abacus and Brain Gym, Western Dance, Guitar, Keyboard, Classic Music, Zumba,Chess,Calligraphy,Handwriting where in all together in these activities many children are learning and Participating in many competitions and winning many prizes in different categories to
+                Anikethana.
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><img src="icons/abacus-192x192.png" alt="img" style='width:50px; height:auto;'></div>
+                  <h3 class="alt-features-title font-alt">•	SIP Abacus & Brain Gym</h3>Benefit of SIP Abacus is not just Maths… but much more… Regular practice of
+                  abacus, brain gym and speed writing helps children.
+                  <a href="Content/abacus.png"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                  
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><img src="icons/dance-192x192.png" alt="img" style='width:50px; height:auto;'></div>
+                  <h3 class="alt-features-title font-alt">Dance</h3>We at Anikethana Academy has been conducting Dance classes for Kids and Adults and been
+                  teaching various styles such as Western , Bollywood , Free style, Contemporary and many others
+                  <a href="Content/dance.png"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><img src="icons/zumba-192x192.png" alt="img" style='width:50px; height:auto;'></div>
+                  <h3 class="alt-features-title font-alt">Zumba</h3>Zumba at Anikethana Involves Dance and Aerobics elements. The choreography
+                  incorporates Hip-Hop, Soca, Samba, Salsa, Merengue, reggaeton, Cumbia etc
+                  <a href="Content/zumba.png"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><img src="icons/mic-192x192.png" alt="img" style='width:50px; height:auto;'></div>
+                  <h3 class="alt-features-title font-alt">Music</h3>Excellence in singing requires time, dedication , instruction and regular practices.
+                  <a href="Content/vocal.png"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-6 hidden-xs hidden-sm">
+                <div class="alt-services-image align-center"><div clas="work-image"><img src="photos/MAGAZINE FINAL (1)-pages-2-page-001.jpg" alt="Feature Image"></div></div><div></div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><img src="icons/keyboard-192x192.png" alt="img" style='width:50px; height:auto;'></div>
+                  <h3 class="alt-features-title font-alt">Keyboard</h3>We at Anikethana has been conducting Musical Keyboard classes and been teaching various
+                  styles by our Professional and
+                  certified Instructors.
+                  <a href="Content/keyboard.png"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><img src="icons/guitar-192x192.png" alt="img" style='width:50px; height:auto;'></div>
+                  <h3 class="alt-features-title font-alt">Guitar</h3>We at Anikethana has been involved in teaching both Acoustic and Electric Guitars
+                  depending on the requirements and been teaching various styles 
+                  <a href="Content/guitar.png"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><span class="fas fa-chess-knight" ></div>
+                  <h3 class="alt-features-title font-alt">Chess</h3>We at Anikethana been conducting this course to Improve both sides of the brain, children's thinking and problem-solving skills,Self-confidence. 
+                  <a href="#"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                </div>
+                <div class="alt-features-item">
+                  <div class="alt-features-icon"><img src="icons/calligraphy-192x192.png" alt="img" style='width:50px; height:auto;'></div>
+                  <h3 class="alt-features-title font-alt">Calligraphy</h3>Anikethana has been conducting Calligraphy workshops by teaching varities of styles through
+                  different levels.
+                  <a href="Content/caligraphy.png"><p class="Know-More" style="text-align: center;">Know More</p></a>
+                </div>
+              </div>
+              
+            </div>
+           
+          </div>
+
+        </section>
+        <hr class="divider-w">
+        <section class="module" id="team">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Meet Our Team</h2>
+                <div class="module-title"><b>A=ME² <br></div>
+                 <div class="module-subtitle" >
+                  Anikethana means motivating all the age groups ( above 5 years* )<br>
+                  through ducation and entertainment.</b></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
+                <div class="team-item">
+                  <div class="team-image">
+                    <div class="team-detail">
+                     
+                    </div>
+                  </div>
+                  <div class="team-descr font-alt">
+  
+                  </div>
+                </div>
+              </div> 
+              <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
+                <div class="team-item">
+                  <div class="team-image"><img src="photos/Team/Anitha 2.jpg" alt="Member Photo"/>
+                    <div class="team-detail">
+                      <h5 class="font-alt"></h5>
+                      <p class="font-serif">I was a house wife, doing tuitions and craft classes. In 2006 when I met narayan uncle who is X area partner of
+                        Karnataka, motivated me a lot to start this SIP AMAL and ABACUS programme. 
+                        </p>
+                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                    </div>
+                  </div>
+                  <div class="team-descr font-alt">
+                    <div class="team-name">Anitha babu</div>
+                    <div class="team-role">Founder of Anikethana academy</div>
+                  </div>
+                </div>
+              </div>
+             <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
+                <div class="team-item" >
+                  <div class="team-image"><img src="photos/Team/Ankith.jpeg" alt="Member Photo"/>
+                    <div class="team-detail">
+                      <h5 class="font-alt">Hello</h5>
+                      <p class="font-serif">My Journey as a Director of Anikethana Academy started as a Beginner, an Amateur, an Unknown in February
+                        2006 at the age of 15 years and has been served and being continuing the responsibility from the year 2006.</p>
+                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                    </div>
+                  </div>
+                  <div class="team-descr font-alt">
+                    <div class="team-name">Ankith K M</div>
+                    <div class="team-role">Director</div>
+                  </div>
+                </div>
+              </div>
+               <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
+                <div class="team-item">
+                  <div class="team-image">
+                    <div class="team-detail">
+                     
+                    </div>
+                  </div>
+                  <div class="team-descr font-alt">
+ 
+                  </div>
+                </div> 
+             
+          </div>
+       </section>
+<!--        <section class="module" id="pricing">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Our Prices</h2>
+                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+              </div>
+            </div>
+            <div class="row multi-columns-row">
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt">
+                  <h4>Light</h4>
+                  <div class="borderline"></div>
+                  <p class="price"><span>$</span>9
+                  </p>
+                  <ul class="price-details">
+                    <li>Free Support</li>
+                    <li>15 Demos Included</li>
+                    <li><span>Newsletter</span></li>
+                    <li><span>Working Contact Form</span></li>
+                    <li><span>Unlimited Domains</span></li>
+                  </ul><a class="btn btn-d btn-round" href="#">Sign Up</a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt">
+                  <h4>Basic</h4>
+                  <div class="borderline"></div>
+                  <p class="price"><span>$</span>29
+                  </p>
+                  <ul class="price-details">
+                    <li>Free Support</li>
+                    <li>15 Demos Included</li>
+                    <li>Newsletter</li>
+                    <li><span>Working Contact Form</span></li>
+                    <li><span>Unlimited Domains</span></li>
+                  </ul><a class="btn btn-d btn-round" href="#">Sign Up</a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt best">
+                  <h4>Advanced</h4>
+                  <p class="small">Best Choice</p>
+                  <div class="borderline"></div>
+                  <p class="price"><span>$</span>64
+                  </p>
+                  <ul class="price-details">
+                    <li>Free Support</li>
+                    <li>15 Demos Included</li>
+                    <li>Newsletter</li>
+                    <li>Working Contact Form</li>
+                    <li><span>Unlimited Domains</span></li>
+                  </ul><a class="btn btn-d btn-round" href="#">Sign Up</a>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3 col-lg-3">
+                <div class="price-table font-alt">
+                  <h4>Ultimate</h4>
+                  <div class="borderline"></div>
+                  <p class="price"><span>$</span>119
+                  </p>
+                  <ul class="price-details">
+                    <li>Free Support</li>
+                    <li>15 Demos Included</li>
+                    <li>Newsletter</li>
+                    <li>Working Contact Form</li>
+                    <li>Unlimited Domains</li>
+                  </ul><a class="btn btn-d btn-round" href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <section>
+            <div class="row mt-40">
+              <div class="col-sm-6 col-sm-offset-3 align-center">
+                <p>Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators. To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words.</p>
+              </div>
+            </div>
+          </div>
+        </section>-->
+        <section class="module bg-dark-60 pt-0 pb-0 parallax-bg testimonial" data-background="15810.jpg" id="testimonial">
+          <div class="testimonials-slider pt-140 pb-140">
+            <ul class="slides">
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">The journey of my son K S Suhruth with Anikethana academy has been a wonderful
+                        experience. He joined Abacus when he was in the 1st standard. It was very helpful in various
+                        aspects. Firstly it helped him in improving his concentration. Next he improved remarkably in
+                        his calculation skills. He has won many prizes in both state and national level competitions.
+                        We would like to thank and wish Mrs. Anitha in all her future projects.
+                        </blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">Dr. SHILPA A C
+                          </div>
+                          <div class="testimonial-descr">PARENTS TESTIMONIAL</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">We are very happy that she is enjoying learning here. She is very creative and opened
+                        up after joining AMAL. This institute take care of children very well of teachers are friendly
+                        too. Thanks to Anikethana Academy.</blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">PARENT OF NAMRUTHA BHAT</div>
+                          <div class="testimonial-descr">SomeCompany INC, CEO</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="container">
+                  <div class="row">
+                    <div class="col-sm-12">
+                      <div class="module-icon"><span class="icon-quote"></span></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                      <blockquote class="testimonial-text font-alt">Anikethana Academy is one of the best institutes. It's well known for its qualitative
+                        Education. Personally it has created an Identify for me and boosted my confidence level. I
+                        wish more and more children come under this motherly roof.
+                        </blockquote>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-4 col-sm-offset-4">
+                      <div class="testimonial-author">
+                        <div class="testimonial-caption font-alt">
+                          <div class="testimonial-title">LAKSHMI SANJEEV</div>
+                          <div class="testimonial-descr">ABACUS TEACHER </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </section>
+        <!--
+        <section class="module" id="news">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Latest blog posts</h2>
+                <div class="module-subtitle font-serif">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</div>
+              </div>
+            </div>
+            <div class="row multi-columns-row post-columns">
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="https://testforrobo.blogspot.com/"><img src="assets/images/post-1.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="https://testforrobo.blogspot.com/">Our trip to the Alps</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="https://testforrobo.blogspot.com/">Mark Stone</a>&nbsp;| 23 November | 3 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-2.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">Shore after the tide</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="#">Andy River</a>&nbsp;| 11 November | 4 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4">
+                <div class="post mb-20">
+                  <div class="post-thumbnail"><a href="#"><img src="assets/images/post-3.jpg" alt="Blog-post Thumbnail"/></a></div>
+                  <div class="post-header font-alt">
+                    <h2 class="post-title"><a href="#">We in New Zealand</a></h2>
+                    <div class="post-meta">By&nbsp;<a href="#">Dylan Woods</a>&nbsp;| 5 November | 15 Comments
+                    </div>
+                  </div>
+                  <div class="post-entry">
+                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                  </div>
+                  <div class="post-more"><a class="more-link" href="#">Read more</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-4 col-lg-offset-2">
+                <div class="callout-text font-alt">
+                  <h3 class="callout-title">Subscribe now</h3>
+                  <p>We will not spam your email.</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="callout-btn-box">
+                  <form id="contactform" action="//formspree.io/robothe321@email.com" method="POST">
+                    <div class="input-group">
+                      <input class="form-control" type="email" id="semail" name="semail" placeholder="Your Email" data-validation-required-message="Please enter your email address." required="required"/><span class="input-group-btn">
+                        <button class="btn btn-g btn-round" id="subscription-form-submit" type="submit">Submit</button></span>
+                    </div>
+                  </form>
+                  <div class="text-center" id="subscription-response"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+        <section class="module" id="contact">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="module-title font-alt">Get in touch</h2>
+                <div class="module-subtitle font-serif"></div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-sm-offset-3">
+                <form id="contactform" action="https://formspree.io/xaypgvra" method="POST">
+                  <div class="form-group">
+                    <label class="sr-only" for="name">Name</label>
+                    <input class="form-control" type="text" id="name" name="name" placeholder="Your Name*" required="required" data-validation-required-message="Please enter your name."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="email">Email</label>
+                    <input class="form-control" type="email" id="email" name="_replyto" placeholder="Your Email*" required="required" data-validation-required-message="Please enter your email address."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <label class="sr-only" for="PhoneNumber">PhoneNumber</label>
+                    <input class="form-control" type="text" id="PhoneNumber" name="PhoneNumber" placeholder="Your PhoneNumber*" required="required" data-validation-required-message="Please enter your PhoneNumber."/>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="form-group">
+                    <textarea class="form-control" rows="7" id="message" name="message" placeholder="Your Message*" required="required" data-validation-required-message="Please enter your message."></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                  <div class="text-center">
+                    <button class="btn btn-block btn-round btn-d" id="cfsubmit" type="submit">Submit</button>
+                  </div>
+                </form>
+                <div class="ajax-response font-alt" id="contactFormResponse"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <h1 class="module-title font-alt" style="border: solid;">Google Map</h1></div>
+        <section id="map-section">
+        
+          <div id="map"><p style="text-align: center; display: block;"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.856329451783!2d77.5643918!3d12.9581486!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xd75a6d7f06a142da!2sAnikethana%20Academy!5e0!3m2!1sen!2sin!4v1596433414703!5m2!1sen!2sin" width="100%" height="500" frameborder="1" style="border:solid;" allowfullscreen="true" aria-hidden="true" tabindex="1"></p></iframe></div>
+        </section>
+        <div class="module-small bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">About anikethana</h5>
+                  <p>Anikethana Academy, #192/1, 4th Main, 5th Cross, Behind St.Thomas Church, Chamarajpet, Bangalore-560018.</p>
+                  <p>Phone 1: 9986899246</p>phone 2: 9986228522
+                  <p>Email:<a href="#"> ankith@anikethana.in</a></p>
+                </div>
+              </div>
+              <!-- <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Recent Comments</h5>
+                  <ul class="icon-list">
+                    <li>Maria on <a href="#">Designer Desk Essentials</a></li>
+                    <li>John on <a href="#">Realistic Business Card Mockup</a></li>
+                    <li>Andy on <a href="#">Eco bag Mockup</a></li>
+                    <li>Jack on <a href="#">Bottle Mockup</a></li>
+                    <li>Mark on <a href="#">Our trip to the Alps</a></li>
+                  </ul>
+                </div> 
+              </div>-->
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Shortcuts</h5>
+                  <ul class="icon-list">
+                    <li><a href="#works">Photography</a></li>
+                    <li><a href="#aboutus">About us</a></li>
+                    <li><a href="#testimonial">Testimonial</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <!--
+              <div class="col-sm-3">
+                <div class="widget">
+                  <h5 class="widget-title font-alt">Blog Posts</h5>
+                  <ul class="widget-posts">
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/rp-1.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">Blog 1</a></div>
+                        <div class="widget-posts-meta">23 january</div>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <div class="widget-posts-image"><a href="#"><img src="assets/images/rp-2.jpg" alt="Post Thumbnail"/></a></div>
+                      <div class="widget-posts-body">
+                        <div class="widget-posts-title"><a href="#">Blog 2</a></div>
+                        <div class="widget-posts-meta">15 February</div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>-->
+            </div>
+          </div>
+        </div>
+        <hr class="divider-d">
+        <footer class="footer bg-dark">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-6">
+                <p class="copyright font-alt">2020 <a href="index.html">Anikethana</a>
+                <p class="copyright font-alt">Designed by Sandesh s</p>
+              </div>
+              <div class="col-sm-6">
+                <div class="footer-social-links"><a href=""><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+      <div class="scroll-up"><a href="#totop"><i class="fa fa-angle-double-up"></i></a></div>
+      <p>
+    </main>
+    <!--  
+    JavaScripts
+    =============================================
+    -->
+    <script src="assets/lib/jquery/dist/jquery.js"></script>
+    <script src="assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="assets/lib/wow/dist/wow.js"></script>
+    <script src="assets/lib/jquery.mb.ytplayer/dist/jquery.mb.YTPlayer.js"></script>
+    <script src="assets/lib/isotope/dist/isotope.pkgd.js"></script>
+    <script src="assets/lib/imagesloaded/imagesloaded.pkgd.js"></script>
+    <script src="assets/lib/flexslider/jquery.flexslider.js"></script>
+    <script src="assets/lib/owl.carousel/dist/owl.carousel.min.js"></script>
+    <script src="assets/lib/smoothscroll.js"></script>
+    <script src="assets/lib/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="assets/lib/simple-text-rotator/jquery.simple-text-rotator.min.js"></script>
+    <!-- <script async="" defer="" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDos67_qogTQzzedyE5xp2ILjRDJuaXOiY&callback=initMap" type="text/javascript"></script> -->
+    <script src="assets/js/plugins.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
