@@ -4,6 +4,7 @@
     <meta charset="utf-8", name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="Anikethana academy,offical website of Anikethana academy,Anikethana,reviews of Anikethana academy">
     <script src='https://kit.fontawesome.com/a076d05399.js'></script>
     <!--  
     Document Title
@@ -70,14 +71,29 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
       <style type="text/css">
             
-@media screen and (max-width: 600px) {
-  .popup {
-    display: none;
-  }
-  .cnt223{
-    display: none;
-  }
-}
+ 
+    .cnt223{
+      display: none;
+    }
+   
+   #home{
+     display: none;;
+   }
+   .fast{
+   
+     position: relative;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: -45px center;
+  width: 0 80%;
+  height: 820px;
+  z-index: 0;
+  background-size: cover;
+  background-image: url('photos/popup.jpeg');
+   }
+    
+  
+    @media screen and (min-width: 600px){
       #overlay {
       position: fixed;
       top: 0;
@@ -102,6 +118,7 @@
       display: none;
       position: fixed;
       z-index: 101;
+      display: block;
       }
       .cnt223{
       min-width: 85%;
@@ -114,6 +131,7 @@
       padding: 15px 35px;
       border-radius: 5px;
       box-shadow: 0 2px 5px #000;
+      display: block;
       }
       .cnt223 p{
       clear: both;
@@ -140,6 +158,13 @@
       .cnt223 .x:hover{
       cursor: pointer;
       }
+      .fast{
+        display: none;
+      }
+      #home{
+        display: block;
+      }
+    }
       </style>
       <script type='text/javascript'>
       $(function(){
@@ -207,12 +232,21 @@
         </div>
       </nav>
       <section class="home-section home-full-height bg-dark bg-gradient" id="home" >
-        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=jh-Uxmef4ak&t=9s', containment:'.home-section', startAt:8, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}"></div>
+        <div class="video-player" data-property="{videoURL:'https://www.youtube.com/watch?v=jh-Uxmef4ak&t=9s', containment:'.home-section', startAt:8, mute:true, autoPlay:true, loop:true, opacity:1, showControls:false, showYTLogo:false, vol:25}" ></div>
         <div class="video-controls-box">
           <div class="container">
             <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
           </div>
         </div>
+        <div class="anikethana-caption">
+          <div class="caption-content">
+           <!--- <div class="font-alt mb-10 anikethana-title-size-1">Welcome</div>
+            <div class=" mb-10 anikethana-title-size-4"><p class="orangeColor"><b>ANIKETHANA <span class="try">ACADEMY</b></span><span></b></p></div>--><a class="section-scroll btn btn-border-w btn-round btn-place" href="#aboutus"><span class="anikethana-title-size-5">Learn More</span></a>
+            </div>
+        </div>
+      </section>
+      <section class='fast'>
+        
         <div class="anikethana-caption">
           <div class="caption-content">
            <!--- <div class="font-alt mb-10 anikethana-title-size-1">Welcome</div>
