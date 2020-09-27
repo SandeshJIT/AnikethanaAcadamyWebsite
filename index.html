@@ -78,7 +78,25 @@
     .popup{
       display: none;
     }
+    #home{
+      display: none;
+    }
+    #know-more{
+      width: 100%;
+    }
+    #smallscreen{
+      background-image: url("photos/popup4.jpeg");
+      background-repeat: no-repeat;
+      height:  90vh;
+      width: 100%;
+      margin-top: 60px;
+      
+    }
     @media screen and (min-width: 600px){
+      #know-more{
+        width:20%;
+        margin-left: 40%;
+      }
       #overlay {
       position: fixed;
       top: 0;
@@ -149,6 +167,9 @@
       #home{
         display: block;
       }
+      #smallscreen{
+        display:none;
+      }
     }
       </style>
       <script type='text/javascript'>
@@ -179,7 +200,7 @@
           <a href='' class='close'>X</a>
         <h1>Important Notice</h1>
         
-        <img src="photos/popup.jpeg">
+        <img src="photos/popup1.jpeg">
         <br/>
         <br/>
         
@@ -223,6 +244,14 @@
             <div class="video-controls"><a class="fa fa-volume-up" id="video-volume" href="#">&nbsp;</a><a class="fa fa-pause" id="video-play" href="#">&nbsp;</a></div>
           </div>
         </div>
+        <div class="anikethana-caption">
+          <div class="caption-content">
+           <!--- <div class="font-alt mb-10 anikethana-title-size-1">Welcome</div>
+            <div class=" mb-10 anikethana-title-size-4"><p class="orangeColor"><b>ANIKETHANA <span class="try">ACADEMY</b></span><span></b></p></div>--><a class="section-scroll btn btn-border-w btn-round btn-place" href="#aboutus"><span class="anikethana-title-size-5">Learn More</span></a>
+            </div>
+        </div>
+      </section>
+      <section id="smallscreen">
         <div class="anikethana-caption">
           <div class="caption-content">
            <!--- <div class="font-alt mb-10 anikethana-title-size-1">Welcome</div>
@@ -556,7 +585,7 @@
                       <p class="font-serif">I was a house wife, doing tuitions and craft classes. In 2006 when I met narayan uncle who is X area partner of
                         Karnataka, motivated me a lot to start this SIP AMAL and ABACUS programme. 
                         </p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                      <!-- <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div> -->
                     </div>
                   </div>
                   <div class="team-descr font-alt">
@@ -572,7 +601,7 @@
                       <h5 class="font-alt">Hello</h5>
                       <p class="font-serif">My Journey as a Director of Anikethana Academy started as a Beginner, an Amateur, an Unknown in February
                         2006 at the age of 15 years and has been served and being continuing the responsibility from the year 2006.</p>
-                      <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div>
+                      <!-- <div class="team-social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a></div> -->
                     </div>
                   </div>
                   <div class="team-descr font-alt">
@@ -581,20 +610,27 @@
                   </div>
                 </div>
               </div>
+              
                <div class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3" onclick="wow fadeInUp">
                 <div class="team-item">
                   <div class="team-image">
                     <div class="team-detail">
-                     
+                      
                     </div>
                   </div>
-                  <div class="team-descr font-alt">
- 
-                  </div>
+              
                 </div> 
-             
+               
           </div>
+        
+         
        </section>
+       <div id="know-more"> 
+        <a href="Content/Team.pdf"><p class="Know-More" style="text-align: center; font-size: large;">Know More</p></a>  
+       </div>
+     
+       
+      
 <!--        <section class="module" id="pricing">
           <div class="container">
             <div class="row">
@@ -955,7 +991,7 @@
                 <p class="copyright font-alt">Designed by Sandesh s</p>
               </div>
               <div class="col-sm-6">
-                <div class="footer-social-links"><a href=""><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-dribbble"></i></a><a href="#"><i class="fa fa-skype"></i></a>
+                <div class="footer-social-links"><a href="https://www.facebook.com/AnikethanaAcademy/"><i class="fa fa-facebook"></i></a>
                 </div>
               </div>
             </div>
